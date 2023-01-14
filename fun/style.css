@@ -5,6 +5,9 @@ body {
     color: rgb(0, 0, 0);
     margin: 50px 0px 20px 2%;
     font-family: 'DM Serif Display', serif;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-size: 30px;
   }
   h2 {
     color: rgb(0, 0, 0);
@@ -12,11 +15,19 @@ body {
     margin-bottom: auto;
     margin-left: 2%;
     font-family: 'DM Serif Display', serif;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-size: 20px;
   }
   p {
     color: rgb(0, 0, 0);
     margin: 0px 0px 0px 2%;
     font-family: 'Roboto', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 1.8;  
   }
 
   ol {
@@ -220,11 +231,6 @@ body {
   
   .nav a:hover {
     color: #D8C8DB;
-  }
-
-  .back-arrow:before {
-    content: "⬅";
-    margin-right: 10px;
   }
   
   
